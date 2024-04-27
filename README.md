@@ -7,7 +7,7 @@
    ctpn 資料夾放著訓練推論模型的執行檔  
    lib 資料夾主要功能是預處理訓練資料集  
    data 資料夾放實作/訓練的照片  
-   解壓縮完的檔案架構如下(圖中有Zone.Identifier不需理會)  
+   解壓縮完的檔案架構如下 (圖中有Zone.Identifier不需理會)  
    ### text-detection-ctpn(根目錄)
    
       ### checkpoint folder  
