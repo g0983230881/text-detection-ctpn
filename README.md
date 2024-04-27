@@ -2,11 +2,7 @@
 
 ## 下載repository後請務必跟著下面步驟操作
 
-1. __解壓縮 checkpoints.zip、ctpn.zip、lib.zip、data.zip__  
-   checkpoints 資料夾 裡放著預訓練模型  
-   ctpn        資料夾 放著訓練推論模型的執行檔  
-   lib         資料夾 主要功能是預處理訓練資料集  
-   data        資料夾 放實作/訓練的照片  
+1. __解壓縮 checkpoints.zip、ctpn.zip、lib.zip、data.zip__   
    解壓縮完的檔案架構如下 (圖中有Zone.Identifier不需理會)  
    ### text-detection-ctpn(根目錄)
    
