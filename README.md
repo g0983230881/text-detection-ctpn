@@ -33,3 +33,4 @@
 
 4. __其餘細節__  
    從源專案的環境配置到可以Demo實作推論、訓練模型的詳細步驟, 請看專案內的word: text-detection-ctpn-gpu 環境建置.docx  
+   origin repository: [https://github.com/eragonruan/text-detection-ctpn](https://github.com/eragonruan/text-detection-ctpn)
