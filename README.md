@@ -14,7 +14,7 @@
    [https://drive.google.com/file/d/1t-_PXd_I8hTjWIHTDBGHMX0wurhVr4Q0/view?usp=drive_link](https://drive.google.com/file/d/1t-_PXd_I8hTjWIHTDBGHMX0wurhVr4Q0/view?usp=drive_link)  
    並將pretrain整個資料夾放到 data/ 路徑底下  
 
-5. 建立softlink
+5. 建立softlink  
    cd 到 data/ 路徑底下, 並輸入下方指令建立softlink  
    ~/text-detection-ctpn/data$ ln -s TEXTVOC VOCdevkit2007  
    會生成一個VOCdevkit2007檔案，連結到 TEXTVOC/VOC2007/ 資料夾底下
