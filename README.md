@@ -30,10 +30,14 @@
    ~/text-detection-ctpn/data$ ln -s TEXTVOC VOCdevkit2007  
    會生成一個VOCdevkit2007檔案，連結到 TEXTVOC/VOC2007/ 資料夾底下  
 
-5. __其餘細節__  
+5. __環境配置__  
    已測試環境:  
    python               3.6.13  
    opencv-python        3.4.0.12  
    tensorflow-gpu       1.15.0  
    從源專案的環境配置到可以Demo實作推論、訓練模型的詳細步驟, 請看專案內的word: text-detection-ctpn-gpu 環境建置.docx  
-   origin repository: [https://github.com/eragonruan/text-detection-ctpn](https://github.com/eragonruan/text-detection-ctpn)
+   origin repository: [https://github.com/eragonruan/text-detection-ctpn](https://github.com/eragonruan/text-detection-ctpn)  
+
+6. __其餘細節__  
+   若想用 VGGnet_fast_rcnn_iter_50000.ckpt 實作 ./ctpn/demo.py, 則取消註解 lib/rpn_msr/proposal_layer_tf.py line45: cfg_key=cfg_key.decode('ascii')  
+   若想用 ctpn.pb 實作 ./ctpn/demo_pb.py 則註解 lib/rpn_msr/proposal_layer_tf.py line45: cfg_key=cfg_key.decode('ascii')  
