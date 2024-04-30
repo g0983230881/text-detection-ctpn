@@ -39,9 +39,15 @@
    請看專案內的word: text-detection-ctpn-gpu 環境建置.docx  
    origin repository: [https://github.com/eragonruan/text-detection-ctpn](https://github.com/eragonruan/text-detection-ctpn)  
 
-7. __其餘細節__  
+7. __DEMO__
+   ## DEMO
    若想用 VGGnet_fast_rcnn_iter_50000.ckpt 實作 ./ctpn/demo.py,  
    則取消註解 lib/rpn_msr/proposal_layer_tf.py line45: cfg_key=cfg_key.decode('ascii')  
    
    若想用 ctpn.pb 實作 ./ctpn/demo_pb.py  
-   則註解 lib/rpn_msr/proposal_layer_tf.py line45: cfg_key=cfg_key.decode('ascii')  
+   則註解 lib/rpn_msr/proposal_layer_tf.py line45: cfg_key=cfg_key.decode('ascii')
+
+   實作的照片請放在 ~/text-detection-ctpn/data/demo/ 資料夾底下  
+
+   ## Training
+   
