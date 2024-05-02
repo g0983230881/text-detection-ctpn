@@ -5,7 +5,7 @@
 1. __解壓縮 checkpoints.zip、ctpn.zip、lib.zip、data.zip__   
    解壓縮完的檔案架構如下 (圖中有Zone.Identifier不需理會)
 
-   ### ctpn(root)  &nbsp;   checkpoint folder   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ctpn folder   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   lib folder   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; data folder
+   ### ctpn(root)  &nbsp;   checkpoint folder   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ctpn folder   &nbsp;&nbsp;&nbsp;   lib folder   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; data folder
    ![fileformat](https://github.com/g0983230881/text-detection-ctpn/assets/54482415/43b8c9cb-d753-4f34-bf51-7e38d8aea5d7)
 
 2. __Google Drive 下載檔案 (pretrain/VGG_imagenet.npy)__   
