@@ -15,7 +15,7 @@
 3. __建立softlink__  
    cd 到 data/ 路徑底下, 並輸入下方指令建立softlink  
    ~/text-detection-ctpn/data$ ln -s TEXTVOC VOCdevkit2007  
-   會生成一個VOCdevkit2007檔案，連結到 TEXTVOC/VOC2007/ 資料夾底下  
+   會生成一個 VOCdevkit2007 連結，連結到 TEXTVOC/VOC2007/ 資料夾底下  
 
 4. __環境配置__  
    已測試環境:  
