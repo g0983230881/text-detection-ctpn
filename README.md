@@ -50,14 +50,20 @@
    實作的照片請放在 ~/text-detection-ctpn/data/demo/ 資料夾底下  
 
    ## Training
-   將自己的訓練資料放在 lib/prepare_training_data/ 底下, 要先修改程式裡的路徑  
+   將自己的訓練資料放在 lib/prepare_training_data/ 底下, 注意要先修改程式裡的路徑  
    split_label.py 輸入路徑如下  
    path: 照片資料夾目錄  
    gt_path: 標記資料夾目錄  
-   
-   5.1 執行指令: ~/prepare_training_data$ python split_label.py  
-   輸出 re_image、label_tmp 資料夾  
+
+   以下為指令步驟  
+   執行指令: ~/prepare_training_data$ python split_label.py  
+   主要功能: 輸出 re_image、label_tmp 資料夾  
    re_image 是重新縮放照片大小, label_tmp 是找出座標中最大與最小的x,y座標且輸出他們  
    
-   5.2 執行指令: ~/prepare_training_data$ python ToVoc.py  
-   輸出 TEXTVOC 資料夾, 再把該資料夾移到 data/ 底下  
+   執行指令: ~/prepare_training_data$ python ToVoc.py  
+   主要功能: 將資料轉換成VOC格式, 輸出 TEXTVOC 資料夾,
+   再把該資料夾移到 data/ 底下即可
+
+   最後退到根目錄,  
+   執行指令: ~/text-detection-ctpn$ python ./ctpn/train_net.py  
+   開始訓練模型  
