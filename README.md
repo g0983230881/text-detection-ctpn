@@ -50,7 +50,11 @@
    
    執行指令: ~/prepare_training_data$ python ToVoc.py  
    主要功能: 將資料轉換成VOC格式, 輸出 TEXTVOC 資料夾,
-   再把該資料夾移到 data/ 底下即可
+   再把該資料夾移到 data/ 底下    
+
+   接著再到 data/  
+   執行指令: ~/data$ ln -s TEXTVOC VOCdevkit2007  
+	生成一個VOCdevkit2007 softlink 連接到 TEXTVOC  
 
    最後退到根目錄,  
    執行指令: ~/text-detection-ctpn$ python ./ctpn/train_net.py  
