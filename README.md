@@ -54,7 +54,8 @@
 
    接著再到 data/  
    執行指令: ~/data$ ln -s TEXTVOC VOCdevkit2007  
-	生成一個VOCdevkit2007 softlink 連接到 TEXTVOC  
+   生成一個VOCdevkit2007 softlink 連接到 TEXTVOC  
+   (建立過softlink後, 之後訓練不需再做一次, 除非softlink失效)  
 
    最後退到根目錄,  
    執行指令: ~/text-detection-ctpn$ python ./ctpn/train_net.py  
