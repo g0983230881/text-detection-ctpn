@@ -38,8 +38,7 @@
 
    ## Training
    將自己的訓練資料放在 lib/prepare_training_data/VOCdevkit/VOC2007/JPEGImages、txtFolder 底下,  
-   注意要先修改程式裡的路徑  
-   split_label.py 輸入路徑如下  
+   注意要先修改程式裡的路徑, split_label.py 輸入路徑如下  
    path: 照片資料夾目錄  
    gt_path: 標記資料夾目錄  
 
