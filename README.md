@@ -45,7 +45,7 @@
    以下為指令步驟  
    執行指令: ~/prepare_training_data$ python split_label.py  
    主要功能: 輸出 re_image、label_tmp 資料夾  
-   re_image 是重新縮放照片大小,
+   re_image 是重新縮放照片大小,  
    label_tmp 是找出座標中最大與最小的x,y座標且輸出他們  
    
    執行指令: ~/prepare_training_data$ python ToVoc.py  
